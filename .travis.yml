@@ -1,0 +1,2 @@
+script:
+    sort -c -g x509/certificate_policies.csv
