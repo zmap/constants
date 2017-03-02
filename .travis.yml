@@ -1,2 +1,3 @@
 script:
-    sort -c -g x509/certificate_policies.csv
+  - sort -c -g x509/certificate_policies.csv
+  - sort -c -g x509/extended_key_usage.csv
