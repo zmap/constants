@@ -1,6 +1,6 @@
 oid,owner,short name,description,is_dv,is_ov,is_ev,is_iv
 1.3.6.1.4.1.44947.1.1.1,Let's Encrypt,"letsencrypt","",true,false,false,false
-2.23.140,CA/B Forum,cab,"The CA/Browser Forum node",,,
+2.23.140,CA/B Forum,cab,"The CA/Browser Forum node",,,,
 2.23.140.1.1,CA/B Forum,cab-extended-validation,"OID ARC for the Extended Validation Guidelines",,,
 2.23.140.1.2,CA/B Forum,cab-baseline-requirements,"Certificate issued in compliance with the Baseline Requirements",,,
 2.23.140.1.2.1,CA/B Forum,cab-domain-validated,"CAB Forum Compliant with Baseline Requirements – No entity identity asserted",true,false,false,false
