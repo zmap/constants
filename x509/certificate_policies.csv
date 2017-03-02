@@ -1,4 +1,4 @@
-oid,owner,customer,short name,description,dv,ov,ev,iv,codesigning
+oid,owner,customer,short name,description,tls_dv,tls_ov,tls_ev,tls_iv,codesigning
 1.3.6.1.4.1.44947.1.1.1,Let's Encrypt,,letsencrypt,,TRUE,FALSE,FALSE,FALSE,
 2.23.140,CA/B Forum,,cab,The CA/Browser Forum node,,,,,
 2.23.140.1.1,CA/B Forum,,cab-extended-validation,OID ARC for the Extended Validation Guidelines,,,,,
@@ -35,3 +35,8 @@ oid,owner,customer,short name,description,dv,ov,ev,iv,codesigning
 1.3.6.1.4.1.30360.3.3.3.3.4.4.3.0,Trustwave,,trustwave,,,,,,
 2.16.792.3.0.3.1.1.2,TurkTrust,,turktrust-ov,,FALSE,TRUE,FALSE,FALSE,
 2.16.792.3.0.3.1.1.5,TurkTrust,,turktrust-ev,,FALSE,FALSE,TRUE,FALSE,
+2.16.840.1.113733.1.7.23.1,Symantec,,symantec-class1,,,,,,
+2.16.840.1.113733.1.7.23.2,Symantec,,symantec-class2,,,,,,
+2.16.840.1.113733.1.7.23.3.2,Symantec,,symantec-class3-private,,,,,,
+2.16.840.1.113733.1.8.54.1,Symantec,,symantec-lt2048bit,,,,,,
+1.3.6.1.4.1.34697.2,AffirmTrust,,,,,,,,
