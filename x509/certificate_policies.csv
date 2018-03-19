@@ -1,104 +1,196 @@
-oid,owner,customer,short_name,description,tls_dv,tls_ov,tls_ev,tls_iv,codesigning_ov,codesigning_ev
-1.3.6.1.4.1.14777.1.2.1,Izenpe,,izenpe,,,,,,,
-1.3.6.1.4.1.30360.3.3.3.3.4.4.3.0,Trustwave,,trustwave,,,,,,,
-1.3.6.1.4.1.34697.1.1,Trend,,trend,,,,,,,
-1.3.6.1.4.1.34697.2,AffirmTrust,,affirmtrust,,,,,,,
-1.3.6.1.4.1.4146.1.10.10,Globalsign,,globalsign-dv,,TRUE,FALSE,FALSE,FALSE,,
-1.3.6.1.4.1.4146.1.1,Globalsign,,globalsign-ev,,FALSE,FALSE,TRUE,FALSE,,
-1.3.6.1.4.1.4146.1.20,Globalsign,,globalsign-ov,,FALSE,TRUE,FALSE,FALSE,,
-1.3.6.1.4.1.44947.1.1.1,Let's Encrypt,,letsencrypt,,TRUE,FALSE,FALSE,FALSE,,
-1.3.6.1.4.1.4788.2.200.1,D-Trust,,dtrust-ov,,FALSE,TRUE,FALSE,FALSE,,
-1.3.6.1.4.1.4788.2.202.1,D-Trust,,dtrust-ev,,FALSE,FALSE,TRUE,FALSE,,
-1.3.6.1.4.1.5237.1.1.3,Trustis,,trustis,,,,,,,
-1.3.6.1.4.1.6449.1.2.1.1.1,Comodo,,comodo-smime-class1,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.1.3.1,Comodo,,comodo-tls-ov-old,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.1.3.2,Comodo,,comodo-codesigning-ov,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.1.3.4,Comodo,,comodo-tls-ov,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.1.3.5,Comodo,,comodo-smime-class3,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.1.5.1,Comodo,,comodo-tls-ev,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.1.6.1,Comodo,,comodo-codesigning-ev,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-1.3.6.1.4.1.6449.1.2.2.10,Comodo,eNom,comodo-securebusinessservices-dv,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.11,Comodo,GlobalTrust,comodo-globaltrust,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.12,Comodo,ARX,comodo-arx,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.14,Comodo,Admiral Systems,comodo-asj,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.15,Comodo,WoTrust,comodo-wotrust,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.16,Comodo,RBC SOFT,comodo-rbcsoft,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.17,Comodo,RegisterFly,comodo-registerfly,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.18,Comodo,Central Security Patrols,comodo-csp,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.19,Comodo,eBiz Networks,comodo-ebiznetworks,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.20,Comodo,RegistryPro,comodo-registrypro,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.21,Comodo,OptimumSSL,comodo-optimumssl,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.22,Comodo,WoSign,comodo-wosign,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.23.1,Comodo,State of Oregon,comodo-stateoforegon-officeofstatetreasurer,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.24,Comodo,Register.com,comodo-registerdotcom,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.25,Comodo,The Code Project,comodo-thecodeproject,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.26,Comodo,Gandi,comodo-gandi,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.27,Comodo,GlobeSSL,comodo-globessl,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.28,Comodo,DreamHost,comodo-dreamhost,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.29,Comodo,TERENA,comodo-terena,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.30,Comodo,SIGNGATE,comodo-sgtrust,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.31,Comodo,GlobalSSL,comodo-globalssl,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.35,Comodo,IceWarp,comodo-icewarp,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.1,Comodo,University of Texas,comodo-unioftexas-sanantonio,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.2,Comodo,University of Texas,comodo-unioftexas-austin,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.3,Comodo,University of Texas,comodo-unioftexas-dallas,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.4,Comodo,University of Texas,comodo-unioftexas-panamerican,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.5,Comodo,University of Texas,comodo-unioftexas-houston,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.36.6,Comodo,University of Texas,comodo-unioftexas-arlington,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.37,Comodo,Dotname Korea,comodo-innossl,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.38,Comodo,TrustSign,comodo-trustsign,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.39,Comodo,Formidable,comodo-formidable,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.40,Comodo,SSL Blindado,comodo-sslblindado,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.41,Comodo,Dreamscape Networks,comodo-crazydomains,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.42,Comodo,K Software,comodo-ksoftware,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.43,Comodo,McAfee,comodo-mcafee,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.44,Comodo,FBS,comodo-signsec,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.45,Comodo,ReliaSite,comodo-reliasite,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.46,Comodo,Flextronics,comodo-flextronics,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.47,Comodo,CertAssure,comodo-certassure,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.49,Comodo,TrustAsia,comodo-trustasia,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.50,Comodo,SecureCore,comodo-securecore,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.51,Comodo,Western Digital,comodo-westerndigital,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.52,Comodo,cPanel,comodo-cpanel,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.53,Comodo,BlackCert,comodo-blackcert,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.54,Comodo,KeyNet Systems,comodo-keynet,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.55,Comodo,InterContinental Hotels,comodo-intercontinentalhotels,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.56,Comodo,UPS,comodo-ups,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.6449.1.2.2.57,Comodo,Saint Barnabas Corp,comodo-saintbarnabas,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.5,Comodo,eNom,comodo-securebusinessservices-ov,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.6,Comodo,DigiCert,comodo-digicert,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.7,Comodo,,comodo-tls-dv,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.8,Comodo,CSC,comodo-csctrustedsecure,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.2.9,Comodo,Digi-Sign,comodo-digisign,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-1.3.6.1.4.1.6449.1.2.3.1,Comodo,,comodo-usertrust,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
-1.3.6.1.4.1.8024.0.2.100.1.1,QuoVadis,,quovadis-ov,,FALSE,TRUE,FALSE,FALSE,,
-1.3.6.1.4.1.8024.0.2.100.1.2,QuoVadis,,quovadis-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.16.528.1.1003.1.2.5.6,Logius,,logius,,FALSE,TRUE,FALSE,FALSE,,
-2.16.756.1.89.1.2.1.1,SwissSign,,swisscom-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.16.792.3.0.3.1.1.2,TurkTrust,,turktrust-ov,,FALSE,TRUE,FALSE,FALSE,,
-2.16.792.3.0.3.1.1.5,TurkTrust,,turktrust-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.16.840.1.101.3.2.1.1. 5,Identrust,,identrust-public-sector,,,,,,,
-2.16.840.1.113733.1.7.23.1,Symantec,,symantec-class1,,,,,,,
-2.16.840.1.113733.1.7.23.2,Symantec,,symantec-class2,,,,,,,
-2.16.840.1.113733.1.7.23.3.2,Symantec,,symantec-class3-private,,,,,,,
-2.16.840.1.113733.1.7.23.3,Symantec,,symantec-class3,,,,,,,
-2.16.840.1.113733.1.7.54,Symantec,,symantec,,,,,,,
-2.16.840.1.113733.1.8.54.1,Symantec,,symantec-lt2048bit,,,,,,,
-2.16.840.1.113839.0.6.3,Identrust,,identrust-commercial,,,,,,,
-2.16.840.1.114412.1.1,Digicert,,digicert-ov,,FALSE,TRUE,FALSE,FALSE,,
-2.16.840.1.114412.1.2,Digicert,,digicert-dv,,TRUE,FALSE,FALSE,FALSE,,
-2.16.840.1.114412.2.1,Digicert,,digicert-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.16.840.1.114413.1.7.23.1,GoDaddy,,godaddy-dv,,TRUE,FALSE,FALSE,FALSE,,
-2.16.840.1.114413.1.7.23.2,GoDaddy,,godaddy-ov,,FALSE,TRUE,FALSE,FALSE,,
-2.16.840.1.114413.1.7.23.3,GoDaddy,,godaddy-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.16.840.1.114414.1.7.23.1,Starfield,,starfield-dv,,TRUE,FALSE,FALSE,FALSE,,
-2.16.840.1.114414.1.7.23.2,Starfield,,starfield-ov,,FALSE,TRUE,FALSE,FALSE,,
-2.16.840.1.114414.1.7.23.3,Starfield,,starfield-ev,,FALSE,FALSE,TRUE,FALSE,,
-2.23.140.1.1,CA/B Forum,,cab-extended-validation,OID ARC for the Extended Validation Guidelines,,,,,,
-2.23.140.1.2.1,CA/B Forum,,cab-domain-validated,CAB Forum Compliant with Baseline Requirements: No entity identity asserted,TRUE,FALSE,FALSE,FALSE,,
-2.23.140.1.2.2,CA/B Forum,,cab-organization-validated,Compliant with Baseline Requirements: Organization identity asserted,FALSE,TRUE,FALSE,FALSE,,
-2.23.140.1.2.3,CA/B Forum,,cab-individual-validated,Compliant with Baseline Requirements: Individual identity asserted,FALSE,FALSE,FALSE,TRUE,,
-2.23.140.1.2,CA/B Forum,,cab-baseline-requirements,Certificate issued in compliance with the Baseline Requirements,,,,,,
-2.23.140.1.31,CA/B Forum,,cab-ev-onion,".onion EV Certificates, the TOR Service Descriptor OID",,,,,,
-2.23.140.1.3,CA/B Forum,,cab-extended-validation-code-signing,Extended Validation Code Signing,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-2.23.140,CA/B Forum,,cab,The CA/Browser Forum node,,,,,,
+oid,owner,customer,short_name,long_name,description,tls_dv,tls_ov,tls_ev,tls_iv,codesigning_ov,codesigning_ev
+0.4.0.1456.1.1,ETSI,,etsi-qcp,ETSI Qualified Certificate Policy,ETSI Qualified Certificate Policy (QCP),,,,,,
+0.4.0.1456.1.1,ETSI,,etsi-qcp-plus,ETSI QCP Public + SSCD,ETSI (QCP+) QCP public + SSCD,,,,,,
+0.4.0.1456.1.2,ETSI,,etsi-qcp-public,ETSI QCP Public,ETSI (QCP): QCP public,,,,,,
+0.4.0.194112.1.0,ETSI,,etsi-qcp-n,ETSI QCP Natural Person,EU qualified certificates issued to natural persons,,,,,,
+0.4.0.194112.1.1,ETSI,,etsi-qcp-l,ETSI QCP Legal Person,ETSI (QCP-l): EU qualified certificates issued to legal persons,,,,,,
+0.4.0.194112.1.2,ETSI,,etsi-qcp-n-qscd,ETSI QCP Natural  key in QSCD,EU qualified certificates issued to natural persons with private key related to the certified public key in a QSCD,,,,,,
+0.4.0.194112.1.3,ETSI,,etsi-qcp-l-qscd,ETSI QCP Legal key in QSCD,EU qualified certificates issued to legal persons with private key related to the certified public key in a QSCD,,,,,,
+0.4.0.194112.1.4,ETSI,,etsi-qcp-w,ETSI QCP Web,EU qualified web site authentication certificates,,,,,,
+0.4.0.2042.1.1,ETSI,,etsi-ncp,Advanced Certificate Policy (Individual or Professional),,,,,,,
+0.4.0.2042.1.2,ETSI,,etsi-ncp-plus,ETSI NCP+,ETSI (NCP+): Advanced Certificate Policy issued on cryptographic device,,,,,,
+0.4.0.2042.1.4,ETSI,,etsi-ev,ETSI Extended Validation Policy,,,,TRUE,,,
+0.4.0.2042.1.5,ETSI,,etsi-ev-evcp-plus,ETSI EV requiring a secure user device (EVCP+),,,,TRUE,,,
+0.4.0.2042.1.6,ETSI,,etsi-tls-dv,ETSI SSL DV,ETSI TLS/SSL Certificate Policy with Domain validation,,,,,,
+0.4.0.2042.1.7,ETSI,,etsi-tls-ov,ETSI SSL OV,ETSI TLS/SSL Certificate Policy with Organization validation,,,,,,
+1.2.156.112559.1.1.1.1,GDCA,,gdca-type-i-individual,GDCA Type I individual,,,,,,,
+1.2.156.112559.1.1.1.2,GDCA,,gdca-type-ii-individual,GDCA Type II individual,,,,,,,
+1.2.156.112559.1.1.1.3,GDCA,,gdca-type-iii-individual,GDCA Type III individual,,,,,,,
+1.2.156.112559.1.1.1.4,GDCA,,gdca-type-iv-individual,GDCA Type IV individual,,,,,,,
+1.2.156.112559.1.1.2.1,GDCA,,gdca-type-iii-organization,GDCA Type III organization,,,,,,,
+1.2.156.112559.1.1.2.2,GDCA,,gdca-type-iv-organization,GDCA  Type IV organization,,,,,,,
+1.2.156.112559.1.1.3.1,GDCA,,gdca-requipment,GDCA Equipment,,,,,,,
+1.2.156.112559.1.1.4.1,GDCA,,gdca-ssl-ov,GDCA SSL OV,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.2.156.112559.1.1.4.2,GDCA,,gdca-ssl-iv,GDCA SSL IV,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+1.2.156.112559.1.1.4.3,GDCA,,gdca-ssl-dv,GDCA SSL DV,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.2.156.112559.1.1.5.1,GDCA,,gdca-code-signing,GDCA General CodeSigning ,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+1.2.156.112559.1.1.6.1,GDCA,,gdca-ssl-ev,GDCA SSL EV,,,,,,,
+1.2.156.112559.1.1.7.1,GDCA,,gdca-code-ev,GDCA Code Signing EV,,,,,,,
+1.2.156.112570.1.1.3,Sheca,,sheca-ev,Sheca EV,,,,,,,
+1.2.392.200091.100.721.1,SECOM Trust Systems,,secom-trust-systems,SECOM Trust Systems,,,,TRUE,,,
+1.2.40.0.17.1.22,A-Trust,,a-trust-nqual-03-ev,A-Trust-nQual-03 EV,,,,TRUE,,,
+1.3.159.1.17.1,Actalis,,acatalis,Actalis Authentication Root CA,,,,,,,
+1.3.6.1.4.1.11129.2.5.1,Google,,google-g2,Google Internet Authority G2,,TRUE,,,,,
+1.3.6.1.4.1.11129.2.5.3,Google,,google-g3,Google Trust Services,,TRUE,,,,,
+1.3.6.1.4.1.13177.10.1.3.10,Firmaprofesional,,firmaprofesional-ev,Firmaprofesional,,,,TRUE,,,
+1.3.6.1.4.1.14370.1.6,GeoTrust,,geotrust-ev-cps-2_6,GeoTrust EV CPS 2.6,GeoTrust Extended Validation (EV) Certification Practice Statement (CPS) v. 2.6,,,TRUE,,,
+1.3.6.1.4.1.14777.1.1.3,Izenpe,,izenpe-electronic-office,Izenpe Electronic Office,,,,,,,
+1.3.6.1.4.1.14777.1.2.1,Izenpe,,izenpe-ov,Izenpe OV,,,,,,,
+1.3.6.1.4.1.14777.1.2.4,Izenpe,,izenpe-dv,Izenpe DV,,,,,,,
+1.3.6.1.4.1.14777.6.1.1,Izenpe,,izenpe-ev,Izenpe EV,,,,TRUE,,,
+1.3.6.1.4.1.14777.6.1.2,Izenpe,,izenpe-electronic-office-ev,Izenpe Electronic Office EV,,,,,,,
+1.3.6.1.4.1.17326.10.14.2.1.2,AC Camerfirma,,camerfirma-chambers-of-commerce-ev,Camerfirma S.A. Chambers of Commerce EV,,,,TRUE,,,
+1.3.6.1.4.1.17326.10.14.2.2.2,AC Camerfirma,,camerfirma-chambers-of-commerce-ev,Camerfirma S.A. Chambers of Commerce EV,,,,TRUE,,,
+1.3.6.1.4.1.17326.10.8.12.1.2,AC Camerfirma,,camerfirma-chambersign-ev,Camerfirma S.A. Global Chambersign Root,,,,TRUE,,,
+1.3.6.1.4.1.17326.10.8.12.2.2,AC Camerfirma,,camerfirma-chambersign-ev,Camerfirma S.A. Global Chambersign Root,,,,TRUE,,,
+1.3.6.1.4.1.18332.55.1.1,ANF Autoridad de Certificacion,,anfac,ANF Autoridad de Certificaci—n,,,,,,,
+1.3.6.1.4.1.18332.55.1.1.1.22,ANF Autoridad de Certificacion,,anfac-ssl-dv,ANF AC Secure Server SSL DV,Secure Server SSL DV With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.2.22,ANF Autoridad de Certificacion,,anfac-ssl-ev,ANF AC Secure Server SSL EV,Secure Server SSL EV With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.3.22,ANF Autoridad de Certificacion,,anfac-medium-level,ANF AC Medium Level Electronic Headquarters,Medium Level Electronic Headquarters With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.4.22,ANF Autoridad de Certificacion,,anfac-high-level,ANF AC High Level Electronic Headquarters,High Level Electronic Headquarters With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.5.22,ANF Autoridad de Certificacion,,anfac-medium-level-ev,ANF AC Medium Level Electronic Headquarters EV,Medium Level EV Electronic Headquarters With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.6.22,ANF Autoridad de Certificacion,,anfac-high-level-ev,ANF AC High Level Electronic Headquarters EV,High Level EV Electronic Headquarters With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.18332.55.1.1.7.22,ANF Autoridad de Certificacion,,anfac-ssl-ov,ANF AC Secure Server SSL OV,Secure Server SSL OV With SHA-256 algorithm and 2048-bit key length,,,,,,
+1.3.6.1.4.1.22234.2.5.2.3.1,OpenTrust/DocuSign France,,keynectis-ev,KEYNECTIS Extended Validation CA,,,,TRUE,,,
+1.3.6.1.4.1.23223.1.1.1,StartCom,,startcom-ev-current,StartCom EV Current,,,,TRUE,,,
+1.3.6.1.4.1.23223.2,StartCom,,startcom-cps-v4,StartCom CPS no.4,,,,TRUE,,,
+1.3.6.1.4.1.23223.2,StartCom,,startcom-ev-deprecated,StartCom EV Deprecated,,,,FALSE,,,
+1.3.6.1.4.1.26513.1.0.2.3,Harica,,harica-cps-v2_3,HARICA CPS v2.3,,,,,,,
+1.3.6.1.4.1.26513.1.0.2.4,Harica,,harica-cps-v2_4,HARICA CPS v2.4,,,,,,,
+1.3.6.1.4.1.26513.1.0.2.5,Harica,,harica-cps-v2_5,HARICA CPS v2.5,,,,,,,
+1.3.6.1.4.1.26513.1.0.2.6,Harica,,harica-cps-v2_6,HARICA CPS v2.6,,,,,,,
+1.3.6.1.4.1.26513.1.0.2.7,Harica,,harica-cps-v2_7,HARICA CPS v2.7,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.0,Harica,,harica-cps-v3_0,HARICA CPS v3.0,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.1,Harica,,harica-cps-v3_1,HARICA CPS v3.1,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.2,Harica,,harica-cps-v3_2,HARICA CPS v3.2,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.3,Harica,,harica-cps-v3_3,HARICA CPS v3.3,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.4,Harica,,harica-cps-v3_4,HARICA CPS v3.4,,,,,,,
+1.3.6.1.4.1.26513.1.0.3.5,Harica,,harica-cps-v3_5,HARICA CPS v3.5,,,,,,,
+1.3.6.1.4.1.30360.3.3.3.3.4.4.3.0,Trustwave,,trustwave,Trustwave,,,,,,,
+1.3.6.1.4.1.34697.1.1,Trend,,trend,Trend,,,,,,,
+1.3.6.1.4.1.34697.2,AffirmTrust,,affirmtrust,AffirmTrust,,,,,,,
+1.3.6.1.4.1.34697.2.1,AffirmTrust ,,afirmtrust-commercial-ev,AffirmTrust Commercial Root EV,,,,TRUE,,,
+1.3.6.1.4.1.34697.2.2,AffirmTrust ,,afirmtrust-networking-ev,AffirmTrust Networking Root EV,,,,TRUE,,,
+1.3.6.1.4.1.34697.2.3,AffirmTrust ,,afirmtrust-premium-ev,AffirmTrust Premium Root EV,,,,TRUE,,,
+1.3.6.1.4.1.34697.2.4,AffirmTrust ,,afirmtrust-premium-ecc-ev,AffirmTrust Premium ECC Root EV,,,,TRUE,,,
+1.3.6.1.4.1.36305.2,Wosign,,wosign-ev,Wosign EV,,FALSE,FALSE,TRUE,FALSE,,
+1.3.6.1.4.1.4146.1.1,Globalsign,,globalsign-ev,Globalsign EV,,FALSE,FALSE,TRUE,FALSE,,
+1.3.6.1.4.1.4146.1.10.10,Globalsign,,globalsign-dv,Globalsign DV,,TRUE,FALSE,FALSE,FALSE,,
+1.3.6.1.4.1.4146.1.20,Globalsign,,globalsign-ov,Globalsign OV,,FALSE,TRUE,FALSE,FALSE,,
+1.3.6.1.4.1.44947.1.1.1,Let's Encrypt,,letsencrypt,Let's Encrypt,,TRUE,FALSE,FALSE,FALSE,,
+1.3.6.1.4.1.4788.2.200.1,D-Trust,,dtrust-ov,D-Trust OV,,FALSE,TRUE,FALSE,FALSE,,
+1.3.6.1.4.1.4788.2.202.1,D-Trust,,dtrust-ev,D-Trust EV,,FALSE,FALSE,TRUE,FALSE,,
+1.3.6.1.4.1.5237.1.1.3,Trustis,,trustis,Trustis,,,,,,,
+1.3.6.1.4.1.6334.1.100.1,Cybertrust,,cybertrust-ev,Cybertrust EV,,,,TRUE,,,
+1.3.6.1.4.1.6449.1.2.1.1.1,Comodo,,comodo-smime-class1,Comodo SMIME Class 1,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.1.3.1,Comodo,,comodo-tls-ov-old,Comodo TLS OV (Old),,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.1.3.2,Comodo,,comodo-codesigning-ov,Comodo Code Signing OV,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.1.3.4,Comodo,,comodo-tls-ov,Comodo Code Signing OV,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.1.3.5,Comodo,,comodo-smime-class3,Comodo SMIME Class 3,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.1.5.1,Comodo,,comodo-tls-ev,Comodo TLS EV,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.1.6.1,Comodo,,comodo-codesigning-ev,Comodo Code Signing EV,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+1.3.6.1.4.1.6449.1.2.2.10,Comodo,eNom,comodo-securebusinessservices-dv,Comodo - eNom DV,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.11,Comodo,GlobalTrust,comodo-globaltrust,"Comodo - GlobalTrust""",,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.12,Comodo,ARX,comodo-arx,Comodo - ARX,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.14,Comodo,Admiral Systems,comodo-asj,Comodo - Admiral Systems,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.15,Comodo,WoTrust,comodo-wotrust,Comodo - WoTrust,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.16,Comodo,RBC SOFT,comodo-rbcsoft,Comodo - RBC SOFT,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.17,Comodo,RegisterFly,comodo-registerfly,Comodo - RegisterFly,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.18,Comodo,Central Security Patrols,comodo-csp,Comodo - Central Security Patrol,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.19,Comodo,eBiz Networks,comodo-ebiznetworks,Comodo - eBiz Networks,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.20,Comodo,RegistryPro,comodo-registrypro,Comodo - RegistryPro,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.21,Comodo,OptimumSSL,comodo-optimumssl,Comodo - OptimumSSL,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.22,Comodo,WoSign,comodo-wosign,Comodo - WoSign,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.23.1,Comodo,State of Oregon,comodo-stateoforegon-officeofstatetreasurer,Comodo - State of Oregon,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.24,Comodo,Register.com,comodo-registerdotcom,"Comodo - Register.com""",,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.25,Comodo,The Code Project,comodo-thecodeproject,Comodo - The Code Project,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.26,Comodo,Gandi,comodo-gandi,Comodo - Gandi,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.27,Comodo,GlobeSSL,comodo-globessl,Comodo - GlobeSSL,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.28,Comodo,DreamHost,comodo-dreamhost,Comodo - DreamHost,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.29,Comodo,TERENA,comodo-terena,Comodo - TERENA,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.30,Comodo,SIGNGATE,comodo-sgtrust,Comodo - SIGNGATE,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.31,Comodo,GlobalSSL,comodo-globalssl,Comodo - GlobalSSL,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.35,Comodo,IceWarp,comodo-icewarp,Comodo - IceWarp,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.1,Comodo,University of Texas,comodo-unioftexas-sanantonio,Comodo - University of Texas San Antonio,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.2,Comodo,University of Texas,comodo-unioftexas-austin,Comodo - University of Texas Austin,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.3,Comodo,University of Texas,comodo-unioftexas-dallas,Comodo - University of Texas Dallas,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.4,Comodo,University of Texas,comodo-unioftexas-panamerican,Comodo - University of Texas Pan American,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.5,Comodo,University of Texas,comodo-unioftexas-houston,Comodo - University of Texas Houston,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.36.6,Comodo,University of Texas,comodo-unioftexas-arlington,Comodo - University of Texas Arlington,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.37,Comodo,Dotname Korea,comodo-innossl,Comodo - Dotname Korea,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.38,Comodo,TrustSign,comodo-trustsign,Comodo - TrustSign,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.39,Comodo,Formidable,comodo-formidable,Comodo - Formidable,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.40,Comodo,SSL Blindado,comodo-sslblindado,Comodo - SSL Blindado,,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.41,Comodo,Dreamscape Networks,comodo-crazydomains,Comodo - Dreamscape Networks,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.42,Comodo,K Software,comodo-ksoftware,Comodo - K Software,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.43,Comodo,McAfee,comodo-mcafee,Comodo - McAfee,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.44,Comodo,FBS,comodo-signsec,Comodo - FBS,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.45,Comodo,ReliaSite,comodo-reliasite,Comodo - ReliaSite,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.46,Comodo,Flextronics,comodo-flextronics,Comodo - Flextronics,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.47,Comodo,CertAssure,comodo-certassure,Comodo - CertAssure,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.49,Comodo,TrustAsia,comodo-trustasia,Comodo - TrustAsia,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.5,Comodo,eNom,comodo-securebusinessservices-ov,Comodo - eNom OV,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.50,Comodo,SecureCore,comodo-securecore,Comodo - SecureCore,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.51,Comodo,Western Digital,comodo-westerndigital,Comodo - Western Digital,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.52,Comodo,cPanel,comodo-cpanel,Comodo - cPanel,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.53,Comodo,BlackCert,comodo-blackcert,Comodo - BlackCert,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.54,Comodo,KeyNet Systems,comodo-keynet,Comodo - KeyNet Systems,,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.55,Comodo,InterContinental Hotels,comodo-intercontinentalhotels,Comodo - InterContinental Hotels,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.56,Comodo,UPS,comodo-ups,Comodo - UPS,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.6449.1.2.2.57,Comodo,Saint Barnabas Corp,comodo-saintbarnabas,Comodo - Saint Barnabas Corp,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.6,Comodo,DigiCert,comodo-digicert,Comodo - DigiCert,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.7,Comodo,,comodo-tls-dv,Comodo TLS DV,,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.8,Comodo,CSC,comodo-csctrustedsecure,Comodo - CSC,,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.2.9,Comodo,Digi-Sign,comodo-digisign,Comodo - Digi-Sign,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+1.3.6.1.4.1.6449.1.2.3.1,Comodo,,comodo-usertrust,Comodo Usertrust,,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+1.3.6.1.4.1.782.1.2.1.8.1,Network Solutions,,network-solutions-ev,Network Solutions EV OID,,,,TRUE,,,
+1.3.6.1.4.1.7879.13.24.1,t-systems,,t-systems-ev,T-Systems International GmbH EV,,,,TRUE,,,
+1.3.6.1.4.1.8024.0.2.100.1.1,QuoVadis,,quovadis-ov,QuoVadis OV,,FALSE,TRUE,FALSE,FALSE,,
+1.3.6.1.4.1.8024.0.2.100.1.2,QuoVadis,,quovadis-ev,QuoVadis EV,,FALSE,FALSE,TRUE,FALSE,,
+2.16.156.339.1.1.1.2.1 ,GDCA,,gdca-hong-kong-mutual-individual,Hong Kong-Guangdong mutual recognition individual certificates,,,,,,,
+2.16.156.339.1.1.2.2.1 ,GDCA,,gdca-hong-kong-mutual-organization,Hong Kong-Guangdong mutual recognition organization certificates,,,,,,,
+2.16.528.1.1001.1.1.1.12.6.1.1.1,DigiNotar,,diginotar,DigiNotar CPS 3.5,DigiNotar Certification Practice Statement (CPS) v 3.5,,,TRUE,,,
+2.16.528.1.1003.1.1.1,Logius,,logius-pki-voor-deoverheid,Logius PKI voor deoverheid,,,,,,,
+2.16.528.1.1003.1.2.5.6,Logius,,logius-ov,Logius OV,,FALSE,TRUE,FALSE,FALSE,,
+2.16.528.1.1003.1.2.7,Logius,,logius-ev,Logius EV,,,,TRUE,,,
+2.16.578.1.26.1.3.3,Buypass,,buypass-class3-ssl-ev,Buypass Class 3 CA SSL EV,,,,TRUE,,,
+2.16.756.1.83.21.0,Swisscom,,swisscom-ev-ca2,Swisscom Root Extended Validation (EV) CA 2,,,,TRUE,,,
+2.16.756.1.89.1.2.1.1,SwissSign,,swisscom-ev,Swisscom EV,,FALSE,FALSE,TRUE,FALSE,,
+2.16.792.1.2.1.1.5.7.1.9,Kamu Sertifikasyon Merkezi,,kamu-sertifikasyon-merkezi,Kamu Sertifikasyon Merkezi SSL,,,,TRUE,,,
+2.16.792.3.0.3.1.1.2,TurkTrust,,turktrust-ov,TurkTrust OV,,FALSE,TRUE,FALSE,FALSE,,
+2.16.792.3.0.3.1.1.5,TurkTrust,,turktrust-ev,TurkTrust EV,,FALSE,FALSE,TRUE,FALSE,,
+2.16.792.3.0.4.1.1.1,E-Tugra,,etugra,Qualified Electronic Certificate Policy,,,,,,,
+2.16.792.3.0.4.1.1.2,E-Tugra,,etugra-ssl,Standard SSL Certificate Policy,,,,,,,
+2.16.792.3.0.4.1.1.3,E-Tugra,,etugra-premium,Premium SSL Certificate Policy,,,,,,,
+2.16.792.3.0.4.1.1.4,E-Tugra,,etugra-ev,E-Tugra EV SSL Certificate Policy,,,,TRUE,,,
+2.16.840.1.101.3.2.1.1. 5,Identrust,,identrust-public-sector,Identrust Public Sector,,,,,,,
+2.16.840.1.113733.1.7.23.1,Symantec,,symantec-class1,Symantec Class 1,,,,,,,
+2.16.840.1.113733.1.7.23.2,Symantec,,symantec-class2,Symantec Class 2,,,,,,,
+2.16.840.1.113733.1.7.23.3,Symantec,,symantec-class3,Symantec Class 3,,,,,,,
+2.16.840.1.113733.1.7.23.3.2,Symantec,,symantec-class3-private,Symantec Class 3 (Private),,,,,,,
+2.16.840.1.113733.1.7.23.6,Verisign,,verisign-ev,Verisign EV CPS v3.8,,,,TRUE,,,
+2.16.840.1.113733.1.7.48.1,Thawte,,thawte-ev,Thawte EV CPS v. 3.3,,,,TRUE,,,
+2.16.840.1.113733.1.7.54,Symantec,,symantec,Symantec,,,,,,,
+2.16.840.1.113733.1.8.54.1,Symantec,,symantec-lt2048bit,Symantec <2048-bit,,,,,,,
+2.16.840.1.113839.0.6.3,Identrust,,identrust-commercial,Identrust Commercial,,,,,,,
+2.16.840.1.114028.10.1.2,Entrust,,entrust-ev,Entrust Extended Validation (EV),,,,TRUE,,,
+2.16.840.1.114171.500.9,Wells Fargo,,wellsfargo-wellssecure,WellsFargo WellsSecure,,,,TRUE,,,
+2.16.840.1.114404.1.1.2.4.1,Trustwave,,securetrust-ev,SecureTrust EV CPS v1.1.1,,,,TRUE,,,
+2.16.840.1.114412.1.1,Digicert,,digicert-ov,Digicert OV,,FALSE,TRUE,FALSE,FALSE,,
+2.16.840.1.114412.1.2,Digicert,,digicert-dv,Digicert DV,,TRUE,FALSE,FALSE,FALSE,,
+2.16.840.1.114412.1.3.0.2,DigiCert,,digicert-ev,Digicert EV,DigiCert Extended Validation (EV) Certification Practice Statement (CPS) v. 1.0.3,,,TRUE,,,
+2.16.840.1.114412.2.1,Digicert,,digicert-ev,Digicert EV,,FALSE,FALSE,TRUE,FALSE,,
+2.16.840.1.114413.1.7.23.1,GoDaddy,,godaddy-dv,GoDaddy DV,,TRUE,FALSE,FALSE,FALSE,,
+2.16.840.1.114413.1.7.23.2,GoDaddy,,godaddy-ov,GoDaddy OV,,FALSE,TRUE,FALSE,FALSE,,
+2.16.840.1.114413.1.7.23.3,GoDaddy,,godaddy-ev,GoDaddy EV,,FALSE,FALSE,TRUE,FALSE,,
+2.16.840.1.114414.1.7.23.1,Starfield,,starfield-dv,Starfield DV,,TRUE,FALSE,FALSE,FALSE,,
+2.16.840.1.114414.1.7.23.2,Starfield,,starfield-ov,Starfield OV,,FALSE,TRUE,FALSE,FALSE,,
+2.16.840.1.114414.1.7.23.3,Starfield,,starfield-ev,Starfield EV,,FALSE,FALSE,TRUE,FALSE,,
+2.23.140,CA/B Forum,,cab,CA/B Forum,The CA/Browser Forum node,,,,,,
+2.23.140.1.1,CA/B Forum,,cab-extended-validation,CA/B Forum Extended Validation,OID ARC for the Extended Validation Guidelines,,,,,,
+2.23.140.1.2,CA/B Forum,,cab-baseline-requirements,CA/B Forum Baseline Requirements,Certificate issued in compliance with the Baseline Requirements,,,,,,
+2.23.140.1.2.1,CA/B Forum,,cab-domain-validated,CA/B Forum Domain Validated,CAB Forum Compliant with Baseline Requirements: No entity identity asserted,TRUE,FALSE,FALSE,FALSE,,
+2.23.140.1.2.2,CA/B Forum,,cab-organization-validated,CA/B Forum Organization Validated,Compliant with Baseline Requirements: Organization identity asserted,FALSE,TRUE,FALSE,FALSE,,
+2.23.140.1.2.3,CA/B Forum,,cab-individual-validated,CA/B Forum Individual Validated,Compliant with Baseline Requirements: Individual identity asserted,FALSE,FALSE,FALSE,TRUE,,
+2.23.140.1.3,CA/B Forum,,cab-extended-validation-code-signing,CA/B Forum CA/B Forum Extended Validation Code Signing,Extended Validation Code Signing,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+2.23.140.1.31,CA/B Forum,,cab-ev-onion,CA/B Forum .onion EV,".onion EV Certificates, the TOR Service Descriptor OID",,,,,,
