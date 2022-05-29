@@ -1,4 +1,5 @@
 oid,owner,short_name,description
+1.2.840.113583.1.1.5,Adobe,adobe-authentic-document-trust,
 1.2.840.113635.100.4.1,Apple,apple-code-signing,
 1.2.840.113635.100.4.1.1,Apple,apple-code-signing-development,
 1.2.840.113635.100.4.1.2,Apple,apple-software-update-signing,

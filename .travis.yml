@@ -1,3 +1,0 @@
-script:
-  - LC_ALL='C' sort -c -g x509/certificate_policies.csv
-  - LC_ALL='C' sort -c -g x509/extended_key_usage.csv
