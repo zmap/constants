@@ -1,0 +1,16 @@
+name: Checking Sorting of Data
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - "*"
+jobs:
+  Sort:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - run: LC_ALL='C' sort -c -g x509/certificate_policies.csv
+      - run: LC_ALL='C' sort -c -g x509/extended_key_usage.csv
